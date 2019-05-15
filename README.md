@@ -1,12 +1,19 @@
 Family Blog
-I will use Angular for frontend and MySQL as the database to store the data.
-
 
 REVISED MVP
 1) authentication.
 2) creation of blog entries that support text.
 3) creation of blog entries that support images and video.
 4) adding edit and delete buttons.
+
+look into how to use SQLite - no secondary serveris required
+
+for hosting: heroku supports both frontend and backend. githubpages for frontend
+
+I will use Angular for frontend and MySQL as the database to store the data.
+
+
+
 
 
 Below, I map out each page of the project.
