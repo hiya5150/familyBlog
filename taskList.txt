@@ -1,0 +1,6 @@
+1- create folders following MVC pattern: controllers, models and views
+2- create config.php file with database information 
+3- create 3 php files in controllers folder: pages, posts and users. pages contains routing information; posts contains all functions etc for posts; add, (edit, delete is fo later) etc; users contains functions etc to register user(validate all info), login user, create user session and logout.
+4- In the libraries folder, I will create the following files a-controller.php - this file loads and instansiates the models and views b-core.php - this file creates the URL and loads the core controller; will look for first, then second part of URL, get params,will contain functions like getUrl. c-database.php file - essentially a database class that will connect to the database, create prepared statements, bind values and return results.
+5- In the models folder, there will be a post class file; it will have functions to getPosts, add Posts, get a specific post etc. There will also be a User class file; it will have functions like register, login, find Userbyemail, get userbyID etc.
+6- The views folder will have subfolders: pages(about, index), posts(add, edit, index), users(login, register) and extras(footer, header, navbar).
